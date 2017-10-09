@@ -11,7 +11,6 @@ public class Result : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
         resultscore.text = "Score\t\t" + ScoreScript.score.ToString("f0");
     }
 

@@ -40,10 +40,6 @@ public class PlayerController : MonoBehaviour
             {
                 transform.position += new Vector3(2, 0, 0);
                 directionX = 0;
-                //touchStartPos = Vector3.zero;
-                //touchEndPos = Vector3.zero;
-                //transform.position += new Vector3(1, 0, 0) * speed * Time.deltaTime;
-
             }
         }
         if (-30 > directionX)
@@ -52,9 +48,6 @@ public class PlayerController : MonoBehaviour
             {
                 transform.position += new Vector3(-2, 0, 0);
                 directionX = 0;
-                //touchStartPos = Vector3.zero;
-                //touchEndPos = Vector3.zero;
-                //transform.position += new Vector3(-1, 0, 0) * speed * Time.deltaTime;
             }
         }
 

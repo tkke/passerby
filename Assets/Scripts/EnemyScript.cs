@@ -43,7 +43,6 @@ public class EnemyScript : MonoBehaviour
         {
             ScoreScript.score += 300;
             avoidFlg = false;
-            //ScoreScript.scoreText.text = "Score: " + ScoreScript.score.ToString("f0");
         }
 
     }
