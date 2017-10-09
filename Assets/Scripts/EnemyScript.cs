@@ -45,6 +45,8 @@ public class EnemyScript : MonoBehaviour
             avoidFlg = false;
         }
 
+		if (transform.position.z < -20)
+			Destroy(transform.gameObject);
     }
 
 }
