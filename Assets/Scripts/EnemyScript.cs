@@ -39,7 +39,7 @@ public class EnemyScript : MonoBehaviour
             }
         }
 
-        if (avoidFlg && player.transform.position.x - transform.position.x > 0)
+        if (avoidFlg && player.transform.position.z - transform.position.z > 0)
         {
             ScoreScript.score += 300;
             avoidFlg = false;
